@@ -11,6 +11,6 @@
  */
 
 if (TL_MODE == 'BE') {
-    $GLOBALS['TL_CSS'][] = 'bundles/heimseitencontaostickyfooterbackendbundle/contao-sticky-footer-backend-bundle.scss|static';
-    $GLOBALS['TL_JAVASCRIPT'][] = 'bundles/heimseitencontaostickyfooterbackendbundle/contao-sticky-footer-backend-bundle.js';
+    $GLOBALS['TL_CSS'][] = 'bundles/heimseitencontaostickyfooterbackend/contao-sticky-footer-backend-bundle.scss|static';
+    $GLOBALS['TL_JAVASCRIPT'][] = 'bundles/heimseitencontaostickyfooterbackend/contao-sticky-footer-backend-bundle.js';
 }
