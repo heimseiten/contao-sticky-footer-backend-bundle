@@ -1,1 +1,1 @@
-Sticky Footer für das Backend mit purem css. Der Footer wird sofort angezeigt und nicht erst nach dem scrollen. Funktioniert auch im Debug-Modus.
+Sticky Footer für das Backend mit purem css. Der Footer wird sofort angezeigt und nicht erst nach dem scrollen. Frontendedit mit madeyourday/contao-rocksolid-frontend-helper wird unterstützt. Funktioniert auch im Debug-Modus.
