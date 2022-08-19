@@ -10,7 +10,10 @@
  * @link https://github.com/heimseiten/contao-sticky-footer-backend-bundle
  */
 
-if (TL_MODE == 'BE') {
+use Contao\System;
+use Symfony\Component\HttpFoundation\Request;
+
+if (System::getContainer()->get('contao.routing.scope_matcher')->isBackendRequest(System::getContainer()->get('request_stack')->getCurrentRequest() ?? Request::create(''))) {
     $GLOBALS['TL_CSS'][] = 'bundles/heimseitencontaostickyfooterbackend/contao-sticky-footer-backend-bundle.scss|static';
     $GLOBALS['TL_JAVASCRIPT'][] = 'bundles/heimseitencontaostickyfooterbackend/contao-sticky-footer-backend-bundle.js';
 }
