@@ -1,7 +1,7 @@
 
 body { 
     .tl_formbody_submit { position: sticky; bottom: -1px; margin-top: -1px; z-index: 1; }
-    &.debug_mode .tl_formbody_submit { bottom: 30px; }
+    &.debug_mode .tl_formbody_submit .tl_submit_container { padding-bottom: 38px; }
 }
 
 body.popup { padding-bottom: 49px;
