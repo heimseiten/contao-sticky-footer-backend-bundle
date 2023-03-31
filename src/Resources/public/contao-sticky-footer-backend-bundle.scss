@@ -3,7 +3,7 @@ body {
         position: sticky; 
         bottom: -1px; 
         margin-top: -1px; 
-        z-index: 1; 
+        z-index: 9; 
     }
     &.debug_mode .tl_formbody_submit .tl_submit_container { padding-bottom: 38px; }
     &.popup { padding-bottom: 49px;
