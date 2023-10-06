@@ -4,7 +4,8 @@
     "keywords": [
         "sticky",
         "footer",
-        "backend"
+        "backend",
+        "sticky-backend-footer"
     ],
     "type": "contao-bundle",
     "license": "GPL-3.0-or-later",
